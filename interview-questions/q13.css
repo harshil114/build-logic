@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #7843E9;
+    --font-color: white;
+    --font-family: 'Source Sans Pro';
+}
+
+.button-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-body {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+
+}
+
+.button {
+    padding: 1.1rem 5.2rem;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+}
